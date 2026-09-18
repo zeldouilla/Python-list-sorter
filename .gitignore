@@ -1,0 +1,2 @@
+# every file that won't be added to the repo
+/__pycache__ # Python cache, not necessary to share since automatically created when project is run
