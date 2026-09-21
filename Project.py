@@ -31,7 +31,7 @@ while True:
             value.lower() if isinstance(value, str) else value
         ))
         print("Sorted list: ", list)
-        print(f"Enter **{reset_keyword}** to start over")
+        print(f"Enter [{reset_keyword}] to start over")
 
     else:    
         clear_terminal()
@@ -40,8 +40,8 @@ while True:
         if item != reset_keyword:       # stops the reset command to be added to the list
             list.append(item)           # add input stored in "item" to the list
         print("Current list: ", list)
-        print(f"Enter **{reset_keyword}** to start over")
-        print(f"Enter **{sort_keyword}** to sort")
+        print(f"Enter [{reset_keyword}] to start over")
+        print(f"Enter [{sort_keyword}] to sort")
 
 
 
