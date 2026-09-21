@@ -17,7 +17,6 @@ reset_keyword = "reset" # keyword used to reset program
 sort_keyword = "sort"   # keyword used to sort the current list
 list.clear()
 
-#========================= select numbers or string =========================#
 while True:
     item = input("Enter a string/integer to add to the list: ") # store input in "item"
     
